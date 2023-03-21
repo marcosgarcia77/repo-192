@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+
+}
+header{
+    background-color: rgb(26,26,26);
+    display:flex
+    align-items
+}
+
+.btn-menu{ display: none;}
+
+/* 1rem = 16px*/
+@media screen and(max-width:800px){
+    .btn-menu{ display: block;}
+    nav{
+        display: none;
+    }
+   /* background-color: rgb(26,26,26);*/
+
+}
